@@ -1,0 +1,31 @@
+.destinations{
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.d_title h2{
+font-size: 32px;
+font-weight: 600;
+line-height: 39.01px;
+text-align: left;
+color: #fff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.grid_divs{
+    display: flex;
+    gap: 20px;
+}
+
+.big_dev1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inside_big_div1{
+    display: flex;
+    gap: 20px;
+}
