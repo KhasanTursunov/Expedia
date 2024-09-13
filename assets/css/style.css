@@ -11,6 +11,7 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 60px;
+  border: 1px solid red;
 }
 
 button {
@@ -371,7 +372,7 @@ main {
 }
 .destinations {
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
 }
 
 .d_title h2 {
@@ -386,6 +387,8 @@ main {
 
 .grid_divs {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
   gap: 20px;
 }
 
@@ -400,6 +403,20 @@ main {
   gap: 20px;
 }
 
+@media (max-width: 1000px) {
+  .destinations {
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 717px) {
+  .dev1 img {
+    width: 100%;
+  }
+  .inside_big_div1 {
+    flex-direction: column;
+  }
+}
 .social_title h2 {
   font-size: 32px;
   font-weight: 600;
