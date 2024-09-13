@@ -9,3 +9,18 @@ color: #fff;
 .social{
     padding: 50px;
 }
+
+@media(max-width:700px){
+    .google_and_apple{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .google_and_apple a img{
+        width: 100%;
+    }
+    // .google_and_apple .imgage{
+    //     width: 85%;
+    // }
+}
