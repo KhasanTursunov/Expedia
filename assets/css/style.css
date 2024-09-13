@@ -11,7 +11,6 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 60px;
-  border: 1px solid red;
 }
 
 button {
@@ -441,7 +440,7 @@ main {
 }
 .footer {
   background-color: #133B5C;
-  height: 330px;
+  height: 300%;
   padding: 50px;
 }
 
@@ -482,6 +481,7 @@ main {
   letter-spacing: 0.05em;
   text-align: center;
   color: #fff;
+  transition: 0.5s;
 }
 
 .footer1 ul {
@@ -518,6 +518,24 @@ main {
   letter-spacing: 0.05em;
   text-align: left;
   color: #fff;
+  transition: 0.5s;
+}
+
+.footer1 ul li a:hover {
+  color: #667f93;
+}
+
+.footer2 p:hover {
+  color: #9fb1c0;
+}
+
+@media (max-width: 1000px) {
+  .footer_holder_div {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
